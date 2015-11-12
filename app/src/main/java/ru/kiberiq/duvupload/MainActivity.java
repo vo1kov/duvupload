@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         toast.show();
                     }
 
-                    params.put("Side", "left");
+                    params.put("side", "left");
                     params.put("id", "test_id_44");
 
                     AsyncHttpClient client = new AsyncHttpClient();
